@@ -62,16 +62,16 @@
   }
 
   const student1 = addCourseToStudent<Students>({
+    id: 1,
     name: "Sakib",
     age: 25,
-    id: 1,
     email: "sakib@it.com",
   });
 
   const student2 = addCourseToStudent<Students>({
+    id: 2,
     name: "Rakib",
     age: 26,
-    id: 2,
     email: "rakib@it.com",
   });
 }
