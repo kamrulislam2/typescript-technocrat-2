@@ -20,4 +20,16 @@
 
   // Partial type or partial utility // mane shobgulo ke optional kora
   type PersonPartial = Partial<Person>; // ekhane shobgulo ke optional kora hoiche
+
+  // Readonly type or readonly utility // mane kono object er kono value ke porishkar kora jabe na, shudhu pora jabe
+  type PersonReadonly = Readonly<Person>; // ekhane shobgulo ke readonly kora hoiche
+  // tahole amra person er kono value ke poriborton korte parbo na, shudhu pora jabe
+
+  const person1: PersonReadonly = {
+    name: "MR. Kamrul",
+    age: 26,
+    contactNo: "01700000000",
+  };
+
+  // person1.name = "MR. Kamrul Hossain"; // ekhane error dekhabe, karon amra person1 er name ke poriborton korte parbo na, shudhu pora jabe
 }
