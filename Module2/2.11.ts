@@ -18,5 +18,6 @@
   // Required type or required utility // mane shobgulo ke required kora
   type PersonRequired = Required<Person>; // ekhane shobgulo ke required kora hoiche
 
-  
+  // Partial type or partial utility // mane shobgulo ke optional kora
+  type PersonPartial = Partial<Person>; // ekhane shobgulo ke optional kora hoiche
 }
