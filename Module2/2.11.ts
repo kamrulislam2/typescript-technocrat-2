@@ -32,4 +32,16 @@
   };
 
   // person1.name = "MR. Kamrul Hossain"; // ekhane error dekhabe, karon amra person1 er name ke poriborton korte parbo na, shudhu pora jabe
+
+  // Record type or record utility // mane ekta object er moddhe onek gulo key-value pair thake, jekhane key gulo string hote pare, kintu value gulo onno type er hote pare
+  type MyObj = Record<string, unknown>;
+
+  const obj1: MyObj = {
+    name: "Kamrul",
+    age: "26",
+    contactNo: "01700000000",
+    hasCar: "true",
+    isAdmin: true,
+  };
+  // Mane hocche, ekhane dynamically onek gulo key-value pair add kora jabe, and key-value string hote hbe, kintu value gulo onno type er hote pare, jemon number, boolean etc. tar jonno unknown type value use korbo
 }
