@@ -18,7 +18,7 @@
       const convertedSpeed = (value * 1000) / 3600;
       console.log(`The speed is ${convertedSpeed} m/s`);
     } else if (typeof value === "string") {
-      const [result, unit] = value.split(" ")[0];
+      const [result, unit] = value.split(" ");
       const convertedSpeed = (parseFloat(result) * 1000) / 3600;
       console.log(`The speed is ${convertedSpeed} m/s`);
     } else {
